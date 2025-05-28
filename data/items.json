@@ -1,0 +1,31 @@
+{
+    "Food": {
+        "description": "Basic rations for the journey",
+        "weight": 2,
+        "can_spoil": true
+    },
+    "Clothing": {
+        "description": "Essential protection against the elements",
+        "weight": 5,
+        "wears_out": true
+    },
+    "Medicine": {
+        "description": "Used to treat injuries and sickness",
+        "weight": 1,
+        "usable": true
+    },
+    "Ammo": {
+        "description": "Used for hunting and defense",
+        "weight": 0.5,
+        "consumable": true
+    },
+    "Spare Parts": {
+        "description": "Used to repair wagon components",
+        "weight": 10
+    },
+    "Spoiled Food": {
+        "description": "Rotten and inedible. Still takes up space until removed.",
+        "weight": 2,
+        "spoiled": true
+    }
+}

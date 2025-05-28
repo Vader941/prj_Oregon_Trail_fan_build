@@ -1,0 +1,53 @@
+{
+    "Banker": {
+        "description": "Starts with extra money but lacks survival skills.",
+        "advantages": [
+            "+50% starting cash"
+        ],
+        "disadvantages": [
+            "-25% repair efficiency",
+            "-10% hunting success"
+        ]
+    },
+    "Farmer": {
+        "description": "Grows food and manages resources efficiently.",
+        "advantages": [
+            "+20% food preservation",
+            "+10% health recovery"
+        ],
+        "disadvantages": [
+            "-10% wagon speed"
+        ]
+    },
+    "Carpenter": {
+        "description": "Excellent at wagon repairs and crafting.",
+        "advantages": [
+            "+40% repair efficiency",
+            "+10% durability"
+        ],
+        "disadvantages": [
+            "-5% hunting success"
+        ]
+    },
+    "Doctor": {
+        "description": "Skilled in healing and sickness prevention.",
+        "advantages": [
+            "+30% health recovery",
+            "-20% disease chance"
+        ],
+        "disadvantages": [
+            "Starts with fewer supplies"
+        ]
+    },
+    "Solo Traveler": {
+        "description": "Travels alone. Faster and needs fewer resources, but heals poorly.",
+        "advantages": [
+            "+25% travel speed",
+            "-30% supply consumption"
+        ],
+        "disadvantages": [
+            "Heals at 1/3 normal rate",
+            "No party assistance"
+        ]
+    }
+}

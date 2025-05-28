@@ -1,0 +1,23 @@
+{
+    "Basic": {
+        "description": "An old hand-me-down wagon. Cheap but unreliable.",
+        "cost": 100,
+        "capacity": 300,
+        "breakdown_chance": 0.25,
+        "repair_difficulty": "Hard"
+    },
+    "Standard": {
+        "description": "A solid, all-purpose wagon with decent reliability.",
+        "cost": 200,
+        "capacity": 500,
+        "breakdown_chance": 0.15,
+        "repair_difficulty": "Medium"
+    },
+    "Deluxe": {
+        "description": "Top-of-the-line wagon with smooth ride and rare breakdowns.",
+        "cost": 400,
+        "capacity": 800,
+        "breakdown_chance": 0.05,
+        "repair_difficulty": "Easy"
+    }
+}
