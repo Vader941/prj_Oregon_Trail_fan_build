@@ -53,7 +53,7 @@ The game will feature:
 ## 🚧 Development Roadmap
 
 - [x] Project scaffold and README
-- [ ] Core class design (`Person`, `Wagon`, `Inventory`, `Item`)
+- [x] Core class design (`Person`, `Wagon`, `Inventory`, `Item`)
 - [ ] Event engine and game loop
 - [ ] Inventory and resource management
 - [ ] User interface (CLI first, GUI maybe later)
