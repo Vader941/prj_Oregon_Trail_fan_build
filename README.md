@@ -1,95 +1,80 @@
-# 🐂 Oregon Trail Parody Game (Work in Progress)
+# Oregon Trail Fan Build
 
-> ⚠️ **NOTE:** This is an independent, personal project currently in development. It is not part of any school curriculum or assignment. It’s a fun way for me to sharpen my programming skills while exploring game design ideas inspired by classic educational games.
+A modern, Python-based fan remake of the classic *Oregon Trail* game with a humorous and accessible twist. This solo project serves both as a learning exercise and a foundation for building more advanced educational games — especially those designed with accessibility in mind.
 
----
+## 🎯 Project Goals
 
-## 🎯 Project Overview
+- Recreate and expand on the mechanics of the original Oregon Trail game
+- Introduce dynamic features like professions, wagon types, health management, and inventory weight
+- Use event-based logic for game progression
+- Design with accessibility and educational value in mind
 
-This project is a **text-based parody of *The Oregon Trail***, written in **Python** and built using **GitHub Codespaces**. It’s designed to be both nostalgic and educational, providing a playful experience that mimics the original game’s challenges—like managing resources, surviving harsh conditions, and making tough choices on the trail—but with custom twists and features inspired by modern gameplay mechanics and accessibility needs.
+## 🚀 Features So Far
 
-The game will feature:
+- ✅ Dynamic wagon system with types (Basic, Standard, Deluxe) loaded from `wagons.json`
+- ✅ Professions with gameplay advantages/disadvantages (Banker, Farmer, Doctor, Carpenter, Solo Traveler)
+- ✅ Inventory system with item weight, capacity limits, and food spoilage
+- ✅ Spoilage logic influenced by weather and calendar month (rain, summer heat)
+- ✅ Dynamic item and profession loading from JSON for modular expansion
 
-- Turn-based simulation gameplay
-- Random events and outcomes
-- Profession-based character bonuses and penalties
-- Inventory management
-- Wagon upgrades and tradeoffs
-- Health and survival mechanics
-- Possibilities for future GUI integration using Tkinter or web technologies
+## 🔨 In Progress
 
----
+- ⏳ Event system (randomized events like river crossings, injuries, supply theft)
+- ⏳ Health system influenced by food, rest, and environment
+- ⏳ Game UI improvements (Tkinter polish or possible transition to web or Pygame)
 
-## 🧠 Project Goals
+## 🛠️ Tech Stack
 
-- Practice **object-oriented programming** in Python
-- Gain experience with **version control**, **modular design**, and **project structuring**
-- Develop and apply **game logic and event systems**
-- Build towards future projects that explore **accessibility and inclusive game design**, especially for children with different learning needs
+- **Language:** Python 3
+- **UI:** Tkinter (initially)
+- **Data Storage:** JSON files for wagons, professions, and items
+- **Planned Tools:** Event manager, possibly custom AI-like decision trees for event consequences
 
----
+## 💡 Planned Features
 
-## 🧩 Key Features (Planned)
+- Procedural travel events (weather, attacks, repairs)
+- Companion mechanics (AI-controlled family members)
+- Map navigation or day-counter for progress tracking
+- Accessibility-focused options (colorblind-safe UI, input pacing for neurodivergent players)
+- Possible classroom mode or simplified version for children
 
-| Feature | Description |
-|--------|-------------|
-| 🧍 Professions | Choose from roles like **Banker**, **Farmer**, **Carpenter**, **Doctor**, and **Solo Traveler**, each with unique traits |
-| 🚙 Wagons | Pick from **Basic**, **Standard**, or **Deluxe** wagons, each with different capacity, durability, and repair difficulty |
-| 🎒 Inventory System | Manage supplies like food, clothing, medicine, ammo—some items will wear out or spoil |
-| 💀 Risk and Survival | Face disease, injury, weather, and breakdowns. Your party's fate depends on your planning and choices |
-| 🗺️ Progression | Move west across a randomized route with trail events and survival choices |
-| 🧠 Accessibility Concepts | Design choices inspired by inclusive gameplay and cognitive simplicity for broader audiences |
+## 🧠 Inspiration & Purpose
 
----
+This project is part of a broader goal to explore how AI and game development can be used to create engaging, accessible experiences — particularly for children with autism and learning differences.
 
-## 🔧 Technologies Used
+It also serves as a stepping stone toward developing professionally polished games for educational nonprofits and real-world classroom deployment.
 
-- **Python 3**
-- **GitHub Codespaces**
-- [Optionally] Tkinter or web front-end (future)
+## ▶️ How to Run the Game
 
----
+```bash
+python main.py
+```
 
-## 🚧 Development Roadmap
+Ensure you have Python 3 installed. No external libraries are required at this stage.
 
-- [x] Project scaffold and README
-- [x] Core class design (`Person`, `Wagon`, `Inventory`, `Item`)
-- [ ] Event engine and game loop
-- [ ] Inventory and resource management
-- [ ] User interface (CLI first, GUI maybe later)
-- [ ] Endgame conditions and scoring
-
----
-
-## 📁 File Structure (Planned)
+## 📁 Project Structure
 
 ```
-oregon-trail-parody/
-├── main.py                 # Entry point for the game
-├── classes/                # Core object-oriented modules
-│   ├── person.py
-│   ├── wagon.py
+.
+├── data/
+│   ├── wagons.json
+│   ├── professions.json
+│   └── items.json
+├── main.py
+├── game/
 │   ├── inventory.py
-│   └── item.py
-├── data/                   # JSON data for professions, wagons, etc.
-├── utils/                  # Helper functions or modules
-├── assets/                 # (Optional) Future assets for UI
-├── requirements.txt
-└── README.md
+│   ├── wagon.py
+│   ├── person.py
+│   ├── events.py
+│   └── ...
+├── README.md
+└── buildguide.md  ← [coming soon]
 ```
 
----
+## 🤝 Contributions
 
-## 💬 Why I’m Building This
+While this is currently a solo learning project, contributions and suggestions are welcome! If you’re passionate about educational games or inclusive design, feel free to fork and collaborate.
 
-As a parent of an autistic child, I’m deeply interested in how technology—especially games—can support different learning styles. This project is a stepping stone toward building more inclusive and meaningful interactive experiences in the future. It’s also a way to practice Python and project planning in a creative context.
+## 📜 License
 
----
-
-## 🙌 Acknowledgments
-
-- Inspired by the classic **Oregon Trail** by MECC
-- Developed with support from **GitHub Codespaces** and **ChatGPT** for brainstorming
-- Personal thanks to the amazing dev community that shares knowledge and inspires learning
-
----
+This is a fan-made project intended for educational purposes. No commercial use is intended.
